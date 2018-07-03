@@ -79,4 +79,8 @@ Ubuntu LTS has a large user base, a great deal of support, and is well maintaine
 
 ## What's the current level of quality?
 
-Regolith will require you to get your hands dirty.  It may be considered better than building i3wm from sources in terms of polish but certainly not something you won't have to tweak and fix to get working exactly how you like it.  
+Regolith will require you to get your hands dirty.  It may be considered better than building i3wm from sources in terms of polish but certainly not something you won't have to tweak and fix to get working exactly how you like it. 
+
+## What's contained in this repo?
+
+Regolith is simply a set of existing open source programs plus some configuration.  This repo contains the Debian package metadata necessary to build the packages that are not already available in Ubuntu's standard repositories as well as Regolith-specific configuration files that give the environments look and feel.  Anyone wishing to produce something similar can fork the repo, create their own Launchpad.net PPA and update the packages as needed.
