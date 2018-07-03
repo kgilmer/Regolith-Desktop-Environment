@@ -25,6 +25,28 @@ $ sudo apt install regolith-desktop-env
 2. At the greeter, select the Ubuntu icon to access the session type menu.  Select Regolith.
 3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.
 
+# Tour
+
+## System Bar
+
+Upon login, you'll find a bar at the bottom of the screen.  This is divided into three primary sections.  From left to right;
+
+1. Workspaces ~ A list of active workspaces and their corresponding index.  The labels for each workspace are defined in i3wm's config file.
+2. Focused Window ~ Because i32m does not render the title bars of applications, the primary focused application's title is displayed here.
+3. System Status ~ A handfull of system indicators such as CPU utilization and active network connection live here.
+
+## Launching Applications
+
+Rofi can be invoked via Meta-space.  This presents a list of available programs on the PATH along with desktop applications.  There are no icons or folders on the Regolith desktop.  Applications are launched either via Rofi or from a terminal.
+
+## Workspaces
+
+10 virtual workspaces are available.  Workspaces provide the primary means of dividing applications across screens.  Meta-<number key> is used to select a workspace.  By default each workspace is empty and will only be visible in the System Bar if a program has a window in that workspace.  See the [i3wm users guide](https://i3wm.org/docs/userguide.html#_using_i3) for much more on workspace management.
+
+# Open Issues and Unimplemented Features
+
+Regolith is a small project and still has many rough edges.  Have a look at the Github issues for more information.
+
 # FAQ
 
 ## What components is Regolith composed of?
