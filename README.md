@@ -42,3 +42,12 @@ Various desktop UI metaphores have come and gone over the years.  For new comput
 ## Why is it based on Ubuntu?
 
 Ubuntu LTS has a large user base, a great deal of support, and is well maintained.
+
+## What does it look like?
+
+![A terminal and the app launcher](assets/screenshot-term-rofi.png?raw=true "A single terminal (stterm) and the app launcher.")
+
+
+## What's the current level of quality?
+
+Regolith will require you to get your hands dirty.  It may be considered better than building i3wm from sources in terms of polish but certainly not something you won't have to tweak and fix to get working exactly how you like it.  
