@@ -1,6 +1,8 @@
+<img align="right" width="160" height="160" title="Regolith Logo" src="./assets/logo-icon.png">
+
 # Regolith Desktop Environment
 
-Regolith is a set of open-source Linux UI elements that combine to provide a productivity-centric desktop experience on top of Ubuntu.  
+Regolith is a set of open-source Linux UI components that combine to provide a productivity-centric desktop experience on top of Ubuntu.  
 
 # Install
 
@@ -63,13 +65,17 @@ i3wm by default lacks polish.  Rather than just tweaking a one-off configuration
 
 ## Why a tiling window manager?
 
-Various desktop UI metaphores have come and gone over the years.  For new computer users, UI elements such as large icons and big simple menus make sense.  However for those of us that have been using computers for awhile now, such things mostly get in the way.  Tiling window managers such as i3wm simply let the user interact with their applications with a minimum of overhead or ceremony.  A simple and consistent set of hotkeys provide the power and expressivity that an average computer user needs to configure their UI environment.
+Various desktop UI metaphores have come and gone over the years.  For new computer users, UI elements such as large icons and big simple menus provide visual .  However for those of us that have been using computers for awhile now, such things mostly get in the way.  Tiling window managers such as i3wm simply let the user interact with their applications with a minimum of overhead or ceremony.  A simple and consistent set of hotkeys provide the power and expressivity that an average computer user needs to configure their UI environment.
 
 ## Why is it based on Ubuntu?
 
 Ubuntu LTS has a large user base, a great deal of support, and is well maintained.
 
 ## What does it look like?
+
+![After login](assets/screenshot-startup.png?raw=true "After login.")
+
+---
 
 ![A terminal and the app launcher](assets/screenshot-term-rofi.png?raw=true "A single terminal (stterm) and the app launcher.")
 
