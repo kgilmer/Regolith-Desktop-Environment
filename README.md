@@ -32,7 +32,7 @@ $ sudo apt install regolith-desktop-env
 Upon login, you'll find a bar at the bottom of the screen.  This is divided into three primary sections.  From left to right;
 
 1. Workspaces ~ A list of active workspaces and their corresponding index.  The labels for each workspace are defined in i3wm's config file.
-2. Focused Window ~ Because i32m does not render the title bars of applications, the primary focused application's title is displayed here.
+2. Focused Window ~ Because i3wm does not render the title bars of applications, the primary focused application's title is displayed here.
 3. System Status ~ A handfull of system indicators such as CPU utilization and active network connection live here.
 
 ## Launching Applications
@@ -45,7 +45,7 @@ Rofi can be invoked via Meta-space.  This presents a list of available programs 
 
 # Open Issues and Unimplemented Features
 
-Regolith is a small project and still has many rough edges.  Have a look at the Github issues for more information.
+Regolith is a small project and still has many rough edges.  Have a look at the [Github issues](https://github.com/kgilmer/Regolith-Desktop-Environment/issues) for more information.
 
 # FAQ
 
