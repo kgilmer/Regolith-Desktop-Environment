@@ -1,6 +1,6 @@
 # Regolith Desktop Environment
 
-Regolith is a set of open-source Linux UI elements that combine to provide a productivity-centric desktop experience.  
+Regolith is a set of open-source Linux UI elements that combine to provide a productivity-centric desktop experience on top of Ubuntu.  
 
 # Install
 
@@ -31,9 +31,13 @@ $ sudo apt install regolith-desktop-env
 
 [i3wm-gaps](https://github.com/Airblader/i3), [polybar](https://github.com/jaagr/polybar), [rofi](https://github.com/DaveDavenport/rofi) are combined with the [solarized color palette](http://ethanschoonover.com/solarized) and the [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) font.
 
+## Who's Regolith made for?
+
+Anyone who prefers to focus on their applications rather than visual bloat and ceremony might like the Regolith Desktop.  It is best suited for those that spend a lot of time on their computer and prefer to get things done with a minimum of ceremony.  If you're afraid of using the terminal, Regolith is probably not for you.
+
 ## Why does the world need yet another Linux desktop environment?
 
-i3wm by default lacks polish.  Rather than just tweaking a one-off configuration, all changes are bundled in Debian packages making installation and upgrading consistent and simple.
+i3wm by default lacks polish.  Rather than just tweaking a one-off configuration, all changes are bundled in Debian packages making installation and upgrading consistent and simple.  Additionally, having the gnome session functionality (as provided by Ubuntu) saves us from having to deal with a lot of the low-level stuff that isn't very interesting.
 
 ## Why a tiling window manager?
 
