@@ -47,6 +47,9 @@ Ubuntu LTS has a large user base, a great deal of support, and is well maintaine
 
 ![A terminal and the app launcher](assets/screenshot-term-rofi.png?raw=true "A single terminal (stterm) and the app launcher.")
 
+---
+
+![Chrome and some terminals](assets/screenshot-browser-2-terms.png?raw=true "A Chrome browser, htop, and a stterm session.")
 
 ## What's the current level of quality?
 
