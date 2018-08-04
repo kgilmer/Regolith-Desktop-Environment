@@ -9,17 +9,21 @@ Regolith is a set of open-source Linux UI components that combine to provide a p
 ![After login](assets/screenshot-empty.png?raw=true "After login.")
 
 Regolith was optimized to devote almost the entire screen to applications.  There is a single on-screen UI element, the bar, at the bottom which gives the user some information such as current and all workspaces, currently selected window, CPU utilization, power state, voluve, time, and wireless network.  There is no dock, global file menu, widgets, or other visual clutter between the user and the application.
+
 ---
 
 ![A terminal](assets/screenshot-terminal.png?raw=true "A single terminal (stterm)")
 
-**st**, a minimal terminal emulator, has been customized for use with Regolith.  
+
+**st**, a minimal terminal emulator, has been customized for use with Regolith.
 
 ---
 
 ![Three terminals](assets/screenshot-terminal-3.png?raw=true "Regolith uses i3wm for window management, a tiling window manager that frees the user from micromanaging window layouts.")
 
+
 Regolith uses i3wm for window management, a tiling window manager that frees the user from micromanaging window layouts.
+
 ---
 
 ![Rofi Launcher](assets/screenshot-rofi.png?raw=true "Rofi is the program launcher for launching applications quickly without taking up any screen space.")
