@@ -1,3 +1,9 @@
+regolith-config (1.9-0ubuntu1) xenial; urgency=medium
+
+  * UI tweaks to polybar
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 03 Aug 2018 19:48:46 -0700
+
 regolith-config (1.8-0ubuntu1) xenial; urgency=medium
 
   * fix postinst script 
