@@ -32,6 +32,12 @@ Rofi is the program launcher for launching applications quickly without taking u
 
 # Tour
 
+## Aesthetic
+
+* The Source Code Pro font from Adobe
+* The Solarized Dark palette  
+* Color is combined with simple iconography for system status
+
 ## System Bar
 
 Upon login, you'll find a bar at the bottom of the screen.  This is divided into three primary sections.  From left to right;
