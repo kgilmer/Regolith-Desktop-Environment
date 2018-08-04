@@ -7,7 +7,7 @@ Standards-Version: 3.9.2
 
 Package: regolith-desktop-env
 Architecture: all
-Depends: i3-wm, polybar, rofi, rofi-themes, fonts-source-code-pro-ttf, st, regolith-config, feh, libxrandr2, dunst, fonts-font-awesome, fonts-powerline, fonts-noto, fonts-droid-fallback, light
+Depends: i3-wm, polybar, rofi, fonts-source-code-pro-ttf, st, regolith-config, feh, libxrandr2, dunst, fonts-font-awesome, fonts-powerline, fonts-noto, fonts-droid-fallback, light
 Multi-Arch: foreign
 Description: Regolith Desktop Environment
  This package provides dependencies on top of Ubuntu 16.04 to install the Regolith

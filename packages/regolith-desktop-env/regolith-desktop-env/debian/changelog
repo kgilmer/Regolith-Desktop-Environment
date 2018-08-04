@@ -1,8 +1,8 @@
-regolith-desktop-env (0.6.1) bionic; urgency=medium
+regolith-desktop-env (0.6.1-0ubuntu1) xenial; urgency=medium
 
-  * update to bionic
+  * Remove dependency on rofi-themes, no longer used.
 
- -- Ken Gilmer <kgilmer@gmail.com>  Sat, 09 Jun 2018 20:57:33 -0700
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 02 Aug 2018 03:50:49 -0700
 
 regolith-desktop-env (0.6-0ubuntu1) xenial; urgency=medium
 
