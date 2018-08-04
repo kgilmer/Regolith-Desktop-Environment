@@ -4,32 +4,21 @@
 
 Regolith is a set of open-source Linux UI components that combine to provide a productivity-centric desktop experience on top of Ubuntu.  
 
-# Install
+## What does it look like?
 
-Regolith is installed on top of an existing Ubuntu 16.04 instance.  If you're not already using Ubuntu, it must be installed before proceeding.
+![After login](assets/screenshot-empty.png?raw=true "After login.")
 
-## Install the Regolith PPA
+---
 
-```
-$ sudo add-apt-repository ppa:kgilmer/regolith
-$ sudo apt update
-```
+![A terminal](assets/screenshot-terminal.png?raw=true "A single terminal (stterm)")
 
-## Install the packages
+---
 
-```
-$ sudo apt install regolith-desktop-env
-```
+![Three terminals](assets/screenshot-terminal-3.png?raw=true "Regolith uses i3wm for window management, a tiling window manager that frees the user from micromanaging window layouts.")
 
-## Login into the Regolith desktop session
+---
 
-1. Log out of your current desktop session.
-2. At the greeter, select the Ubuntu icon to access the session type menu.  Select Regolith.
-3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.
-
-## Video of Install
-
-![Install Video](https://github.com/kgilmer/Regolith-Desktop-Environment/raw/master/assets/regolith-install.gif)
+![Rofi Launcher](assets/screenshot-rofi.png?raw=true "Rofi is the program launcher for launching applications quickly without taking up any screen space.")
 
 
 # Tour
@@ -76,17 +65,34 @@ Various desktop UI metaphores have come and gone over the years.  For new comput
 
 Ubuntu LTS has a large user base, a great deal of support, and is well maintained.
 
-## What does it look like?
+# Install
 
-![After login](assets/screenshot-startup.png?raw=true "After login.")
+Regolith is installed on top of an existing Ubuntu 16.04 instance.  If you're not already using Ubuntu, it must be installed before proceeding.
 
----
+## Install the Regolith PPA
 
-![A terminal and the app launcher](assets/screenshot-term-rofi.png?raw=true "A single terminal (stterm) and the app launcher.")
+```
+$ sudo add-apt-repository ppa:kgilmer/regolith
+$ sudo apt update
+```
 
----
+## Install the packages
 
-![Chrome and some terminals](assets/screenshot-browser-2-terms.png?raw=true "A Chrome browser, htop, and a stterm session.")
+```
+$ sudo apt install regolith-desktop-env
+```
+
+## Login into the Regolith desktop session
+
+1. Log out of your current desktop session.
+2. At the greeter, select the Ubuntu icon to access the session type menu.  Select Regolith.
+3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.
+
+## Video of Install
+
+![Install Video](https://github.com/kgilmer/Regolith-Desktop-Environment/raw/master/assets/regolith-install.gif)
+
+
 
 ## What's the current level of quality?
 
