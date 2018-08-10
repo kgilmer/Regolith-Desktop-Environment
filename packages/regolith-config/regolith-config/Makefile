@@ -13,6 +13,7 @@ PATH_ROFI_LIGHT_THEME = $(PREFIX)/usr/share/rofi/themes/regolith-light-theme.ras
 PATH_COMPTON = $(PREFIX)/etc/xdg/compton.conf
 PATH_POLYBAR = $(PREFIX)/etc/xdg/polybar.config
 PATH_REGOLITH_DESKTOP = $(PREFIX)/usr/share/xsessions/regolith.desktop
+PATH_REGOLITH_DESKTOP_BADGE = $(PREFIX)/usr/share/unity-greeter/custom_regolith_badge.png
 PATH_BACKGROUNDS = $(PREFIX)/usr/share/backgrounds
 
 #
@@ -29,8 +30,9 @@ install:
 	$(INSTALL) -m0644 -D configs/rofi/regolith-light-theme.rasi $(PATH_ROFI_LIGHT_THEME)
 	$(INSTALL) -m0644 -D configs/compton/compton.conf $(PATH_COMPTON)
 	$(INSTALL) -m0644 -D configs/xsessions/regolith.desktop $(PATH_REGOLITH_DESKTOP)
+	$(INSTALL) -m0644 -D images/custom_regolith_badge.png $(PATH_REGOLITH_DESKTOP_BADGE)
 	$(INSTALL) -m0644 -D configs/polybar/polybar.config $(PATH_POLYBAR)
-	$(INSTALL) -m0644 -D backgrounds/Fire.png $(PATH_BACKGROUNDS)/Fire.png
+	$(INSTALL) -m0644 -D backgrounds/emgram769.png $(PATH_BACKGROUNDS)/emgram769.png
 
 uninstall:
 	rm -f $(PATH_I3)
@@ -39,7 +41,8 @@ uninstall:
 	rm -f $(PATH_ROFI_DARK_THEME)
 	rm -f $(PATH_COMPTON)
 	rm -f $(PATH_REGOLITH_DESKTOP)
+	rm -f $(PATH_REGOLITH_DESKTOP_BADGE)
 	rm -f $(PATH_POLYBAR)
-	rm -f $(PATH_BACKGROUNDS)/Fire.png
+	rm -f $(PATH_BACKGROUNDS)/emgram769.png
 
 .PHONY: all install uninstall

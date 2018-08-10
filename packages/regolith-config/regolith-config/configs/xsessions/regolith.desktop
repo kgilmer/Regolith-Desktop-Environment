@@ -5,5 +5,5 @@ Exec=i3 -c /etc/xdg/i3/config
 TryExec=i3
 Type=Application
 X-LightDM-DesktopName=Regolith
-DesktopNames=Regolith
+DesktopNames=Unity;Regolith
 Keywords=tiling;wm;windowmanager;window;manager;

@@ -1,3 +1,11 @@
+regolith-config (1.10-0ubuntu1) xenial; urgency=medium
+
+  * Add xsession badge for lightdm greeter
+  * Add 'Unity' to XDG_CURRENT_DESKTOP for control center to work
+  * Change background wallpaper to reduce package size (credit: https://www.reddit.com/user/emgram769/)
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Fri, 10 Aug 2018 01:12:21 -0700
+
 regolith-config (1.9-0ubuntu1) xenial; urgency=medium
 
   * UI tweaks to polybar
