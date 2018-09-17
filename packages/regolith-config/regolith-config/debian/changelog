@@ -1,3 +1,15 @@
+regolith-config (1.14-0ubuntu1) xenial; urgency=medium
+
+  * Add command to suspend system. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 16 Sep 2018 20:42:36 -0700
+
+regolith-config (1.13-0ubuntu1) xenial; urgency=medium
+
+  * Add overline to workspaces for cleaner look. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 16 Sep 2018 20:26:00 -0700
+
 regolith-config (1.12-0ubuntu1) xenial; urgency=medium
 
   * Update to depend on i3-gaps-wm instead of i3-wm.

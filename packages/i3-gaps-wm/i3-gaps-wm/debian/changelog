@@ -1,0 +1,14 @@
+i3-gaps-wm (4.15.0.6-0ubuntu1) xenial; urgency=medium
+
+  * Build cleanup
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 09 Sep 2018 19:33:24 -0700
+
+i3-gaps-wm (4.15.0.5-0ubuntu1) xenial; urgency=medium
+
+  * Build if i3-wm gaps fork v4.15.0.1 with package name of i3-gaps-wm to
+    avoid confusion with non-gaps version of i3. My own bump from 4.15.0.1 -> 4.15.0.4
+    because I can't figure out the magic to cause launchpad.net to rebuild from
+    an existing version.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 09 Sep 2018 14:33:24 -0700
