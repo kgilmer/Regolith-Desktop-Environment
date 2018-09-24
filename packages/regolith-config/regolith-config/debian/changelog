@@ -1,3 +1,15 @@
+regolith-config (1.16-0ubuntu1) xenial; urgency=medium
+
+  * Even slighter compton dimming and remap i3 horizontal command to 'h'. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 23 Sep 2018 17:09:58 -0700
+
+regolith-config (1.15-0ubuntu1) xenial; urgency=medium
+
+  * Add slight dimming of inactive windows in Compton. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 18 Sep 2018 20:30:53 -0700
+
 regolith-config (1.14-0ubuntu1) xenial; urgency=medium
 
   * Add command to suspend system. 
