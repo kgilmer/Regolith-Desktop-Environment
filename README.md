@@ -99,8 +99,8 @@ $ sudo apt install regolith-desktop-env
 
 ## Login into the Regolith desktop session
 
-1. Log out of your current desktop session.
-2. At the greeter, select the Ubuntu icon to access the session type menu.  Select Regolith.
+1. Log out of your current desktop session. ( May require a restart after install)
+2. At the greeter, select the Ubuntu icon (or settings button on login screen) to access the session type menu.  Select Regolith.
 3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.
 
 ## Video of Install
