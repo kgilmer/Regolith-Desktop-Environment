@@ -32,7 +32,14 @@ install:
 	$(INSTALL) -m0644 -D configs/xsessions/regolith.desktop $(PATH_REGOLITH_DESKTOP)
 	$(INSTALL) -m0644 -D images/custom_regolith_badge.png $(PATH_REGOLITH_DESKTOP_BADGE)
 	$(INSTALL) -m0644 -D configs/polybar/polybar.config $(PATH_POLYBAR)
-	$(INSTALL) -m0644 -D backgrounds/emgram769.png $(PATH_BACKGROUNDS)/emgram769.png
+# Taken from http://wallpaper-site.webflow.io "#66 MARTIAN TERRAIN"
+	$(INSTALL) -m0644 -D backgrounds/ESP_018747_2065_desktop.jpg $(PATH_BACKGROUNDS)/ESP_018747_2065_desktop.jpg
+# Copied from https://github.com/deuill/i3-gnome-flashback
+	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback-session.desktop $(PREFIX)/share/xsessions/i3-gnome-flashback-session.desktop
+	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback.session $(PREFIX)/share/gnome-session/sessions/i3-gnome-flashback.session
+	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback-session $(PREFIX)/bin/i3-gnome-flashback-session
+	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback $(PREFIX)/bin/i3-gnome-flashback
+
 
 uninstall:
 	rm -f $(PATH_I3)
@@ -43,6 +50,10 @@ uninstall:
 	rm -f $(PATH_REGOLITH_DESKTOP)
 	rm -f $(PATH_REGOLITH_DESKTOP_BADGE)
 	rm -f $(PATH_POLYBAR)
-	rm -f $(PATH_BACKGROUNDS)/emgram769.png
+	rm -f $(PATH_BACKGROUNDS)/ESP_018747_2065_desktop.jpg
+	rm -f $(PREFIX)/bin/i3-gnome-flashback $(PREFIX)/bin/i3-gnome-flashback-session \
+          $(PREFIX)/share/gnome-session/sessions/i3-gnome-flashback.session \
+          $(PREFIX)/share/xsessions/i3-gnome-flashback-session.desktop
+
 
 .PHONY: all install uninstall

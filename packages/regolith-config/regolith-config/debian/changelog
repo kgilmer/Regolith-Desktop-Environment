@@ -1,3 +1,9 @@
+regolith-config (2.0-0ubuntu1) xenial; urgency=medium
+
+  * Move to Ubuntu 18.04.  Integrate i3-gnome-flashback.  Minor UI tweaks.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 12 Jan 2019 18:36:25 -0800
+
 regolith-config (1.16-0ubuntu1) xenial; urgency=medium
 
   * Even slighter compton dimming and remap i3 horizontal command to 'h'. 

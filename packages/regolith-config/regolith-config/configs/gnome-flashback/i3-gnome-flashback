@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Register with gnome-session so that it does not kill the whole session thinking it is dead.
+if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
+	dbus-send --print-reply --session --dest=org.gnome.SessionManager "/org/gnome/SessionManager" org.gnome.SessionManager.RegisterClient "string:i3-gnome" "string:$DESKTOP_AUTOSTART_ID"
+fi
+
+i3  -c /etc/xdg/i3/config
+
+# Close session when i3 exits.
+if [ -n "$DESKTOP_AUTOSTART_ID" ]; then
+	dbus-send --print-reply --session --dest=org.gnome.SessionManager "/org/gnome/SessionManager" org.gnome.SessionManager.Logout "uint32:1"
+fi
