@@ -1,4 +1,4 @@
-regolith-config (2.0-0ubuntu1) xenial; urgency=medium
+regolith-config (1.17-0ubuntu1) xenial; urgency=medium
 
   * Move to Ubuntu 18.04.  Integrate i3-gnome-flashback.  Minor UI tweaks.
 
