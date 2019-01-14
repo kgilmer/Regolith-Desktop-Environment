@@ -82,26 +82,27 @@ Ubuntu LTS has a large user base, a great deal of support, and is well maintaine
 
 # Install
 
-Regolith is installed on top of an existing Ubuntu 16.04 instance.  If you're not already using Ubuntu, it must be installed before proceeding.
+Regolith is installed on top of an existing Ubuntu 18.04 instance.  If you're not already using Ubuntu, it must be installed before proceeding.
 
-## Install the Regolith PPA
+## Enable the Regolith PPA
 
 ```
 $ sudo add-apt-repository ppa:kgilmer/regolith
 $ sudo apt update
 ```
 
-## Install the packages
+## Install the Regolith Meta Package
 
 ```
 $ sudo apt install regolith-desktop-env
 ```
 
-## Login into the Regolith desktop session
+## Login into the Regolith Desktop Session
 
-1. Log out of your current desktop session. ( May require a restart after install)
+1. Log out of your current desktop session. (Reboot or restart `gdm` <this will kill your current xsession>)
 2. At the greeter, select the Ubuntu icon (or settings button on login screen) to access the session type menu.  Select Regolith.
-3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.
+3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.  
+4. Get to work.
 
 ## Video of Install
 
