@@ -1,3 +1,10 @@
+regolith-config (1.18-0ubuntu1) xenial; urgency=medium
+
+  * Fixed issue with Regolith session not appearing in gdm.  
+  * Added several desktop images.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 13 Jan 2019 21:01:51 -0800
+
 regolith-config (1.17-0ubuntu1) xenial; urgency=medium
 
   * Move to Ubuntu 18.04.  Integrate i3-gnome-flashback.  Minor UI tweaks.
