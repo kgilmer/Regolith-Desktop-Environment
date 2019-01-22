@@ -1,3 +1,15 @@
+regolith-config (1.20-0ubuntu1) bionic; urgency=medium
+
+  * removed i3-gnome-flashback xsession
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 21 Jan 2019 07:44:16 -0800
+
+regolith-config (1.19-0ubuntu1) bionic; urgency=medium
+
+  * i3-gnome-flashback integration was totally broken.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 20 Jan 2019 21:14:59 -0800
+
 regolith-config (1.18-0ubuntu1) xenial; urgency=medium
 
   * Fixed issue with Regolith session not appearing in gdm.  

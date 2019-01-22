@@ -1,11 +1,7 @@
 [Desktop Entry]
 Name=Regolith
 Comment=Productivity focused desktop environment
-Exec=i3-gnome-flashback
+Exec=i3-gnome-flashback-session
+TryExec=i3
 Type=Application
-X-LightDM-DesktopName=Regolith
-DesktopNames=Unity;Regolith
-Keywords=tiling;wm;windowmanager;window;manager;
-X-GNOME-Autostart-Phase=WindowManager
-X-GNOME-Provides=windowmanager
-X-GNOME-Autostart-Notify=false
+DesktopNames=GNOME-Flashback;GNOME

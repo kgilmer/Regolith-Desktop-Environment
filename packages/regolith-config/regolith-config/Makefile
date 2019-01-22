@@ -41,13 +41,11 @@ install:
 	$(INSTALL) -m0644 -D backgrounds/ESP_016895_1525_desktop.jpg $(PATH_BACKGROUNDS)/ESP_016895_1525_desktop.jpg
 	$(INSTALL) -m0644 -D backgrounds/ESP_020323_2050_desktop.jpg $(PATH_BACKGROUNDS)/ESP_020323_2050_desktop.jpg
 	$(INSTALL) -m0644 -D backgrounds/ESP_034883_1645_desktop.jpg $(PATH_BACKGROUNDS)/ESP_034883_1645_desktop.jpg
-
 # Copied from https://github.com/deuill/i3-gnome-flashback
-	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback-session.desktop $(PREFIX)/share/xsessions/i3-gnome-flashback-session.desktop
-	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback.session $(PREFIX)/share/gnome-session/sessions/i3-gnome-flashback.session
-	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback-session $(PREFIX)/bin/i3-gnome-flashback-session
-	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback $(PREFIX)/bin/i3-gnome-flashback
-
+	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback.session $(PREFIX)/usr/share/gnome-session/sessions/i3-gnome-flashback.session
+	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback-session $(PREFIX)/usr/bin/i3-gnome-flashback-session
+	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback $(PREFIX)/usr/bin/i3-gnome-flashback
+	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback.desktop $(PREFIX)/usr/share/applications/i3-gnome-flashback.desktop
 
 uninstall:
 	rm -f $(PATH_I3)
@@ -66,9 +64,9 @@ uninstall:
 	rm -f $(PATH_BACKGROUNDS)/ESP_016895_1525_desktop.jpg
 	rm -f $(PATH_BACKGROUNDS)/ESP_020323_2050_desktop.jpg
 	rm -f $(PATH_BACKGROUNDS)/ESP_034883_1645_desktop.jpg
-	rm -f $(PREFIX)/bin/i3-gnome-flashback $(PREFIX)/bin/i3-gnome-flashback-session \
-          $(PREFIX)/share/gnome-session/sessions/i3-gnome-flashback.session \
-          $(PREFIX)/share/xsessions/i3-gnome-flashback-session.desktop
+	rm -f $(PREFIX)/bin/i3-gnome-flashback $(PREFIX)/usr/bin/i3-gnome-flashback-session \
+          $(PREFIX)/usr/share/gnome-session/sessions/i3-gnome-flashback.session \
+	  $(PREFIX)/usr/share/applications/i3-gnome-flashback.desktop
 
 
 .PHONY: all install uninstall
