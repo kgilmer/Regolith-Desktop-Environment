@@ -7,3 +7,15 @@
 *.debian.tar.xz
 *.deb
 *.buildinfo
+
+# intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# visual code
+.vscode/
+
+# mac
+.DS_Store
