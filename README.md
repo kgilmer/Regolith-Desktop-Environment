@@ -112,6 +112,7 @@ $ sudo apt install regolith-desktop-env
     - Meta-space for an application menu. 
     - Meta-arrow for switching windows
     - Meta-num for creating/switching workspace
+    - Meta-f for toggling fullscreen
     - (Meta = Windows Key)
 5. Get to work and have fun.
 
