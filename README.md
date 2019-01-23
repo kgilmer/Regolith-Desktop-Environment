@@ -97,17 +97,23 @@ $ sudo apt update
 $ sudo apt install regolith-desktop-env
 ```
 
-## Login into the Regolith Desktop Session
-
-1. Log out of your current desktop session. (Reboot or restart `gdm` <this will kill your current xsession>)
-2. At the greeter, select the Ubuntu icon (or settings button on login screen) to access the session type menu.  Select Regolith.
-3. Log in.  Meta-enter for a terminal.  Meta-space for an application menu.  
-4. Get to work.
 
 ## Video of Install
 
 ![Install Video](https://github.com/kgilmer/Regolith-Desktop-Environment/raw/master/assets/regolith-install.gif)
 
+## Quick Start
+
+1. Log out of your current desktop session. (Reboot or restart `gdm` <this will kill your current xsession>)
+2. At the greeter, select the Ubuntu icon (or settings button on login screen) to access the session type menu.  Select Regolith.
+3. Log in. If Regolith is installed correctly, only a status bar will show at the bottom of the screen.
+4. Basic Hotkeys
+    - Meta-enter for a terminal.  
+    - Meta-space for an application menu. 
+    - Meta-arrow for switching windows
+    - Meta-num for creating/switching workspace
+    - (Meta = Windows Key)
+5. Get to work and have fun.
 
 
 ## What's the current level of quality?
