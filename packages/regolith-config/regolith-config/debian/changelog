@@ -1,3 +1,27 @@
+regolith-config (1.24-0ubuntu1) bionic; urgency=medium
+
+  * Fix feh background random cycling.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 26 Jan 2019 21:50:21 -0800
+
+regolith-config (1.23-0ubuntu1) bionic; urgency=medium
+
+  * Fix i3 configuration.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 26 Jan 2019 21:22:54 -0800
+
+regolith-config (1.22-0ubuntu1) bionic; urgency=medium
+
+  * Fix gnome-screensaver dependency issue.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 26 Jan 2019 20:51:02 -0800
+
+regolith-config (1.21-0ubuntu1) bionic; urgency=medium
+
+  * Added materia-gtk-theme from Igor Dyatlov <dyatlov.igor@gmail.com>
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 26 Jan 2019 19:56:46 -0800
+
 regolith-config (1.20-0ubuntu1) bionic; urgency=medium
 
   * removed i3-gnome-flashback xsession

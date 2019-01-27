@@ -3,3 +3,6 @@
 # Required for Nautils to work correctly with i3
 gsettings set org.gnome.desktop.background show-desktop-icons false
 
+# Set the theme
+gsettings set org.gnome.desktop.interface gtk-theme "Material-Ubuntu-light"
+gsettings set org.gnome.desktop.wm.preferences theme "Material-Ubuntu-light"

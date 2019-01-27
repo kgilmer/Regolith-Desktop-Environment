@@ -34,9 +34,10 @@ Rofi is the program launcher for launching applications quickly without taking u
 
 ## Aesthetic
 
-* The Source Code Pro font from Adobe
-* The Solarized Dark palette  
+* The [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) font from Adobe
+* The [Solarized Dark palette](https://ethanschoonover.com/solarized/) 
 * Color is combined with simple iconography for system status
+* [Materia Light GTK theme](https://github.com/nana-4/materia-theme)
 
 ## System Bar
 
