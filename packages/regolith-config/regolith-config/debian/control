@@ -10,6 +10,6 @@ Homepage: https://github.com/Regolith-Desktop
 
 Package: regolith-config
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, i3-gaps-wm, polybar, rofi, compton, gnome-flashback, gnome-screensaver, materia-gtk-theme
+Depends: ${shlibs:Depends}, ${misc:Depends}, i3-gaps-wm, polybar, rofi, compton, gnome-flashback, gnome-screensaver, solarc-theme, arc-icon-theme, moka-icon-theme
 Description: config for regolith
  Configuration files for the Regolith desktop environment.

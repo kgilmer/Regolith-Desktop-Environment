@@ -29,3 +29,8 @@ Start here: http://packaging.ubuntu.com/html/packaging-new-software.html
 # Creating a meta-package
 
 https://askubuntu.com/questions/33413/how-to-create-a-meta-package-that-automatically-installs-other-packages
+
+# Patching an existing upstream package
+
+https://cs-people.bu.edu/doucette/xia/guides/debian-patch.txt
+

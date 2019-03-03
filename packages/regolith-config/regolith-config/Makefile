@@ -46,7 +46,10 @@ install:
 	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback-session $(PREFIX)/usr/bin/i3-gnome-flashback-session
 	$(INSTALL) -m0755 -D configs/gnome-flashback/i3-gnome-flashback $(PREFIX)/usr/bin/i3-gnome-flashback
 	$(INSTALL) -m0644 -D configs/gnome-flashback/i3-gnome-flashback.desktop $(PREFIX)/usr/share/applications/i3-gnome-flashback.desktop
-
+# Regolith session configuration script
+	$(INSTALL) -m0755 -D scripts/configure-regolith-user-session.sh $(PREFIX)/usr/bin/configure-regolith-user-session.sh
+	$(INSTALL) -m0755 -D scripts/polybar-launcher.sh $(PREFIX)/usr/bin/polybar-launcher.sh
+	
 uninstall:
 	rm -f $(PATH_I3)
 	rm -f $(PATH_ROFI)
@@ -64,9 +67,11 @@ uninstall:
 	rm -f $(PATH_BACKGROUNDS)/ESP_016895_1525_desktop.jpg
 	rm -f $(PATH_BACKGROUNDS)/ESP_020323_2050_desktop.jpg
 	rm -f $(PATH_BACKGROUNDS)/ESP_034883_1645_desktop.jpg
-	rm -f $(PREFIX)/bin/i3-gnome-flashback $(PREFIX)/usr/bin/i3-gnome-flashback-session \
+	rm -f $(PREFIX)/usr/bin/i3-gnome-flashback $(PREFIX)/usr/bin/i3-gnome-flashback-session \
           $(PREFIX)/usr/share/gnome-session/sessions/i3-gnome-flashback.session \
 	  $(PREFIX)/usr/share/applications/i3-gnome-flashback.desktop
+	rm -f $(PREFIX)/usr/bin/configure-regolith-user-session.sh
+	rm -f $(PREFIX)/usr/bin/polybar-launcher.sh
 
 
 .PHONY: all install uninstall

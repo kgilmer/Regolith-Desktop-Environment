@@ -1,3 +1,9 @@
+regolith-desktop-env (0.6.3-0ubuntu1) bionic; urgency=medium
+
+  * Remove dunst for notifications as it's built-in to gnome-flashback
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 03 Feb 2019 21:32:51 -0800
+
 regolith-desktop-env (0.6.2-0ubuntu1) xenial; urgency=medium
 
   * Migrate to internally hosted i3-gaps-wm for beaver compat. 

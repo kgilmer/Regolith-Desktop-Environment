@@ -17,12 +17,18 @@
   red:	      #dc322f;
   blue:       #268bd2;
   cyan:       #2aa198;	
+  black:      #000000;
 
   spacing: 0;
   background-color: transparent;
 
   font: "Sourcecode Pro 16";
   text-color: @base0;
+}
+
+configuration {
+    show-icons: true;
+    drun-icon-theme: "Arc";
 }
 
 window {
@@ -68,8 +74,8 @@ element {
 }
 
 element selected {
-  background-color: @base02;
-  text-color: @text;
+  background-color: @blue;
+  text-color: @black;
 }
 
 element urgent, element selected urgent {
