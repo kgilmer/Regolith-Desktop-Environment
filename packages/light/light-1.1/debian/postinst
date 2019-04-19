@@ -1,6 +1,0 @@
-#!/bin/sh
-
-# https://github.com/haikarainen/light/issues/36
-mkdir /etc/light
-
-chmod 4755 /usr/bin/light
